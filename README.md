@@ -11,7 +11,7 @@ Phantom is an exciting professional Bootstrap resume template. It’s exclusivel
 | [![](screenshots/7.jpg)](https://demo.themefisher.com/phantom/works.html) | [![](screenshots/8.jpg)](https://demo.themefisher.com/phantom/testimonials.html) | [![](screenshots/9.jpg)](https://demo.themefisher.com/phantom/contact.html) |
 | **Works**  | **Testimonials**  | **Contact** |
 
-👉🏻[View Live Preview](https://demo.themefisher.com/novena/)
+👉🏻[View Live Preview](https://demo.themefisher.com/phantom/)
 
 <!-- resources -->
 ## Pages
