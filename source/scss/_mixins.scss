@@ -1,0 +1,47 @@
+//
+// Mixins
+//
+
+@import "flex";
+
+@mixin transition($transition) {
+   -webkit-transition: $transition;
+   -moz-transition: $transition;
+   -o-transition: $transition;
+   transition: $transition;
+}
+
+@mixin transform($transform) {
+   -webkit-transform: $transform;
+   -moz-transform: $transform;
+   -ms-transform: $transform;
+   -o-transform: $transform;
+   transform: $transform;
+}
+
+@mixin transform-origin($value) {
+   -webkit-transform-origin: $value;
+   -moz-transform-origin: $value;
+   -ms-transform-origin: $value;
+   -o-transform-origin: $value;
+   transform-origin: $value;
+}
+
+@mixin transition-delay($value) {
+   -webkit-transition-delay: $value;
+   -moz-transition-delay: $value;
+   -o-transition-delay: $value;
+   transition-delay: $value;
+}
+
+@mixin backface-visibility($value) {
+   -webkit-transform-origin: $value;
+   -moz-transform-origin: $value;
+   transform-origin: $value;
+}
+
+@mixin calc($property, $expression) {
+   #{$property}: -webkit-calc(#{$expression});
+   #{$property}: -moz-calc(#{$expression});
+   #{$property}: calc(#{$expression});
+}

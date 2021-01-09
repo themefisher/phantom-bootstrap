@@ -1,0 +1,197 @@
+/*------------------------------------------------
+	Base Styles
+-------------------------------------------------*/
+body {
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: $text-color;
+}
+
+a {
+  color: inherit;
+
+  &:hover,
+  &:focus {
+    color: $text-color;
+    text-decoration: none;
+    outline: 0 none;
+  }
+
+  @include transition(all 0.3s ease 0s);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $title-color;
+  font-family: $open-sans;
+  margin: 0;
+  line-height: 1.3;
+}
+
+p {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/*
+ * Selection color
+ */
+::-moz-selection {
+  background-color: $primary-color;
+  color: $light;
+}
+
+::selection {
+  background-color: $primary-color;
+  color: $light;
+}
+
+/*
+ *  Reset bootstrap's default style
+ */
+.form-control::-webkit-input-placeholder,
+::-webkit-input-placeholder {
+  opacity: 1;
+  color: inherit;
+}
+
+.form-control:-moz-placeholder,
+:-moz-placeholder {
+  /* Firefox 18- */
+  opacity: 1;
+  color: inherit;
+}
+
+.form-control::-moz-placeholder,
+::-moz-placeholder {
+  /* Firefox 19+ */
+  opacity: 1;
+  color: inherit;
+}
+
+.form-control:-ms-input-placeholder,
+:-ms-input-placeholder {
+  opacity: 1;
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea,
+label {
+  font-weight: 400;
+}
+
+.btn {
+  @include transition(all 0.3s ease 0s);
+
+  &:hover,
+  &:focus,
+  &:active:focus {
+    outline: 0 none;
+  }
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border: 0;
+  font-family: $open-sans;
+  font-weight: 700;
+  height: 48px;
+  line-height: 50px;
+  padding: 0 42px;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:active:focus {
+    background-color: darken($primary-color, 8%);
+  }
+}
+
+.btn-border {
+  border: 1px solid #d7d8db;
+  display: inline-block;
+  padding: 7px;
+}
+
+/*
+ *  CSS Helper Class
+ */
+.clear {
+
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+.pt-table {
+  display: table;
+  width: 100%;
+  @include calc(height, "100vh - 4px");
+}
+
+.pt-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.relative {
+  position: relative;
+}
+
+.primary,
+.link:hover {
+  color: $primary-color;
+}
+
+.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+
+  &>[class^="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.flex {
+  @include flexbox();
+}
+
+.flex-middle {
+  @include align-items(center);
+}
+
+.space-between {
+  @include justify-content(space-between);
+}
+
+.nicescroll-cursors {
+  background: $primary-color !important;
+}

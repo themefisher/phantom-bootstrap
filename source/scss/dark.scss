@@ -1,0 +1,53 @@
+$light-dark: #1e2530;
+
+.dark {
+	background-color: #0c0f15;
+
+	.page-home .overlay {
+		background-color: rgba(#0e1118, 0.97);
+	}
+
+	.page-title {
+		h2 {
+			color: #ffffff;
+		}
+
+		.title-bg {
+			color: rgba(#46587c, 0.06);
+		}
+	}
+
+	.section-title h3::before {
+		background-color: #fff;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.about-author .author-desc p {
+		color: #fff;
+	}
+	.switcher-body h4 {
+		color: #0c0f15;
+	}
+
+	.service-hex {
+		.st0 {
+			fill: transparent;
+		}
+
+		&:hover {
+			.st0 {
+				fill: #fff;
+			}
+		}
+	}
+
+	.testimonials .text,
+	.btn-border {
+		border-color: #1e2530;
+	}
+}

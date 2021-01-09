@@ -1,0 +1,248 @@
+/*============================================================
+	Macbook pro 13 inch
+==============================================================*/
+@media only screen and (min-width: 1151px) and (max-width: 1366px) {}
+
+
+/*============================================================
+	For Small Desktop / tablet landscape
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1150px) {
+
+
+	.author-image-large {
+		img {
+			@include calc(height, "80vh - 4px");
+		}
+	}
+}
+
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+	body {
+		overflow-x: hidden;
+	}
+
+	.page-title {
+		h2 {
+			font-size: 40px;
+		}
+
+		.title-bg {
+			font-size: 100px;
+		}
+	}
+
+	.author-image-large {
+		position: static;
+		margin-bottom: 50px;
+
+		img {
+			display: block;
+			height: auto;
+			margin: 0 auto;
+			width: 50%;
+		}
+	}
+
+	.about-author {
+		+p {
+			margin-bottom: 50px;
+		}
+	}
+
+	.service-hex {
+		width: 33.3333%;
+
+		&:hover {
+			z-index: 2;
+
+			svg {
+				@include transform(scale(1.5));
+			}
+
+			.content {
+				width: 105%;
+			}
+		}
+
+		&:nth-child(4),
+		&:nth-child(5) {
+			@include transform(translate(50%, -15%));
+		}
+	}
+
+	.testimonials {
+		.item {
+			padding-top: 45px;
+		}
+
+		.thumb {
+			margin-top: -45px;
+		}
+	}
+
+	.history-item .history-text {
+		padding-right: 15px;
+	}
+
+	.page-nav {
+		bottom: auto;
+
+		.flex {
+			display: block;
+			text-align: center;
+
+			span {
+				display: block;
+				margin: 20px 0;
+			}
+		}
+	}
+}
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+	body {
+		overflow-x: hidden;
+	}
+
+	.pt-table {
+		height: auto;
+	}
+
+	.pt-table,
+	.pt-tablecell {
+		display: block;
+	}
+
+	.page-title {
+		margin-bottom: 45px;
+
+		h2 {
+			font-size: 35px;
+		}
+
+		.title-bg {
+			font-size: 50px;
+		}
+	}
+
+	.hexagon-item {
+		float: none;
+		margin: 0 auto 50px;
+
+		&:first-child {
+			margin-left: auto;
+		}
+	}
+
+	.page-home {
+
+		.hexagon-item:nth-last-child(1),
+		.hexagon-item:nth-last-child(2),
+		.hexagon-item:nth-last-child(3) {
+			@include transform (rotate(30deg) translate(0px, 0px));
+		}
+	}
+
+	.author-image-large {
+		position: static;
+		margin-bottom: 50px;
+
+		img {
+			display: block;
+			height: auto;
+			margin: 0 auto;
+			width: 50%;
+		}
+	}
+
+	.about-author {
+		display: block;
+
+		.author-thumb {
+			border: 0 none;
+			margin-bottom: 15px;
+			margin-right: 0;
+			padding: 0;
+		}
+
+		.author-desc b {
+			display: block;
+		}
+
+		+p {
+			margin-bottom: 50px;
+		}
+	}
+
+	.progress {
+		display: block;
+
+		.skill-name {
+			border-right: 0;
+			margin: 0 15px;
+			min-width: auto;
+			text-align: left;
+		}
+
+		.skill-lavel {
+			border-left: 0;
+			margin: 0 15px;
+			min-width: auto;
+			text-align: left;
+		}
+	}
+
+	.service-hex {
+		float: none;
+		margin: 0 auto 40px;
+		width: 60%;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		&:hover {
+			svg {
+				@include transform(scale(1.8));
+			}
+
+			.content {
+				width: 120%;
+			}
+		}
+	}
+
+	.history-block {
+		margin-bottom: 30px;
+	}
+
+	.contact-form .input-field.name {
+		margin-right: 0;
+	}
+
+	.page-nav {
+		bottom: auto;
+		.flex {
+			display: block;
+			text-align: center;
+			span {
+				display: block;
+				margin: 20px 0;
+			}
+		}
+	}
+
+}

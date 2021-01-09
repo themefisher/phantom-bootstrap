@@ -1,0 +1,31 @@
+
+/*------------------------------------------------
+    About Page
+-------------------------------------------------*/
+.about-author {
+	margin-bottom: 23px;
+	@include align-items(center);
+	@include flexbox();
+	.author-thumb {
+	  	background-color: $light;
+	  	border: 5px solid $light-dark;
+	  	margin-right: 30px;
+	  	padding: 5px;
+	  	img {
+	  		border: 2px solid $light-dark;
+	  		width: 145px;
+	  	}
+	}
+	.author-desc {
+		p {
+			color: $light-dark;
+			font-family: $open-sans;
+			letter-spacing: 1px;
+			margin-bottom: 4px;
+			text-transform: uppercase;
+		}
+		b {
+			font-family: $open-sans;
+		}
+	}
+}

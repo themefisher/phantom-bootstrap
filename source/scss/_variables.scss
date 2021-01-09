@@ -1,0 +1,31 @@
+//
+// Typography
+//
+
+$font-stack: "Libre Baskerville", serif;
+$open-sans:'Open Sans', sans-serif;
+
+//
+// Colors
+//
+$primary-color: #FA6862;
+$light-dark: #1e2530;
+$light: #fff;
+$text-color: #ababab;
+$title-color: #1e2530;
+$border-color: #eee;
+
+//
+// Hexagon
+//
+$sqrt3: 1.7320508075688772;
+$edgeSize: 100px;
+$hexWidth: $edgeSize * 2;
+$hexHeight: $sqrt3 * $edgeSize;
+
+// Display
+$borderHover: 15px;
+
+// Easing
+$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+$ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
