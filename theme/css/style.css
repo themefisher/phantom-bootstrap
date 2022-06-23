@@ -5,19 +5,6 @@
  * GITHUB: https://github.com/themefisher/
  */
 
-/*
-THEME: Phantom - Bootstrap Portfolio Template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/phantom-best-bootstrap-portfolio-template/
-DEMO: https://demo.themefisher.com/phantom/
-GITHUB: https://github.com/themefisher/Phantom-Bootstrap-Portfolio-Template
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-*/
 /*------------------------------------------------
 	Base Styles
 -------------------------------------------------*/
@@ -62,12 +49,12 @@ p:last-child {
  * Selection color
  */
 ::-moz-selection {
-  background-color: #FA6862;
+  background-color: #fa6862;
   color: #fff;
 }
 
 ::selection {
-  background-color: #FA6862;
+  background-color: #fa6862;
   color: #fff;
 }
 
@@ -116,7 +103,7 @@ label {
 }
 
 .btn-primary {
-  background-color: #FA6862;
+  background-color: #fa6862;
   border: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -171,7 +158,7 @@ label {
 
 .primary,
 .link:hover {
-  color: #FA6862;
+  color: #fa6862;
 }
 
 .no-gutter {
@@ -199,7 +186,7 @@ label {
 }
 
 .nicescroll-cursors {
-  background: #FA6862 !important;
+  background: #fa6862 !important;
 }
 
 .preloader {
@@ -217,7 +204,7 @@ label {
 }
 
 .loading-mask {
-  background-color: #FA6862;
+  background-color: #fa6862;
   height: 100%;
   left: 0;
   position: absolute;
@@ -253,7 +240,7 @@ label {
 	Start Styling
 -------------------------------------------------*/
 .site-wrapper {
-  border-top: 4px solid #FA6862;
+  border-top: 4px solid #fa6862;
 }
 
 .page-close {
@@ -315,7 +302,7 @@ label {
   bottom: 14px;
 }
 .section-title h3::after {
-  background-color: #FA6862;
+  background-color: #fa6862;
   width: 73px;
 }
 .section-title.light h3 {
@@ -383,7 +370,7 @@ label {
 }
 .hexagon-item:hover .hex-item div::before,
 .hexagon-item:hover .hex-item div::after {
-  background-color: #FA6862;
+  background-color: #fa6862;
 }
 .hexagon-item:hover .hex-content svg {
   transform: scale(0.97);
@@ -559,7 +546,7 @@ label {
   flex-grow: 1;
 }
 .progress .bar {
-  background-color: #FA6862;
+  background-color: #fa6862;
   border-radius: 10px;
   height: 8px;
   width: 0;
@@ -580,8 +567,8 @@ label {
   border-bottom: 2px solid transparent;
 }
 .filter .active {
-  color: #FA6862;
-  border-bottom-color: #FA6862;
+  color: #fa6862;
+  border-bottom-color: #fa6862;
 }
 
 .works-item {
@@ -621,7 +608,7 @@ label {
   transform: translate3d(0px, 0px, 0px) scale(0);
 }
 .works-item h4 {
-  color: #FA6862;
+  color: #fa6862;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -771,7 +758,7 @@ label {
   transform: scale(1.5);
 }
 .service-hex:hover .st1 {
-  fill: #FA6862;
+  fill: #fa6862;
 }
 .service-hex:hover .content {
   width: 135%;
@@ -867,7 +854,7 @@ label {
   display: none;
 }
 .testimonials .slick-dots .slick-active button {
-  border-color: #FA6862;
+  border-color: #fa6862;
 }
 
 .tm-hex {
@@ -984,13 +971,13 @@ label {
   transform: translate(-50%, -50%);
 }
 .contact-social li:hover span {
-  background-color: #FA6862;
+  background-color: #fa6862;
 }
 .contact-social li:hover span::before {
-  border-bottom-color: #FA6862;
+  border-bottom-color: #fa6862;
 }
 .contact-social li:hover span::after {
-  border-top-color: #FA6862;
+  border-top-color: #fa6862;
 }
 
 .contact-social-hex {
@@ -1020,10 +1007,10 @@ label {
   border-top: 12.41px solid #1e2530;
 }
 .contact-social-hex:hover::after {
-  border-bottom-color: #FA6862;
+  border-bottom-color: #fa6862;
 }
 .contact-social-hex:hover::before {
-  border-top-color: #FA6862;
+  border-top-color: #fa6862;
 }
 
 .contact-form .input-field {
@@ -1085,7 +1072,7 @@ label {
 }
 
 .msg-success {
-  color: #FA6862;
+  color: #fa6862;
 }
 
 .pt-table.desktop-768 .pt-tablecell {
@@ -1192,19 +1179,19 @@ label {
 }
 
 .color-options li.c0 {
-  background-color: #FA6862;
+  background-color: #fa6862;
 }
 
 .color-options li.c1 {
-  background-color: #02B7CE;
+  background-color: #02b7ce;
 }
 
 .color-options li.c2 {
-  background-color: #86A438;
+  background-color: #86a438;
 }
 
 .color-options li.c3 {
-  background-color: #F3A36D;
+  background-color: #f3a36d;
 }
 
 .pattern-options li {
@@ -1251,14 +1238,12 @@ label {
   body {
     overflow-x: hidden;
   }
-
   .page-title h2 {
     font-size: 40px;
   }
   .page-title .title-bg {
     font-size: 100px;
   }
-
   .author-image-large {
     position: static;
     margin-bottom: 50px;
@@ -1269,11 +1254,9 @@ label {
     margin: 0 auto;
     width: 50%;
   }
-
   .about-author + p {
     margin-bottom: 50px;
   }
-
   .service-hex {
     width: 33.3333%;
   }
@@ -1289,18 +1272,15 @@ label {
   .service-hex:nth-child(4), .service-hex:nth-child(5) {
     transform: translate(50%, -15%);
   }
-
   .testimonials .item {
     padding-top: 45px;
   }
   .testimonials .thumb {
     margin-top: -45px;
   }
-
   .history-item .history-text {
     padding-right: 15px;
   }
-
   .page-nav {
     bottom: auto;
   }
@@ -1320,16 +1300,13 @@ label {
   body {
     overflow-x: hidden;
   }
-
   .pt-table {
     height: auto;
   }
-
   .pt-table,
 .pt-tablecell {
     display: block;
   }
-
   .page-title {
     margin-bottom: 45px;
   }
@@ -1339,7 +1316,6 @@ label {
   .page-title .title-bg {
     font-size: 50px;
   }
-
   .hexagon-item {
     float: none;
     margin: 0 auto 50px;
@@ -1347,13 +1323,11 @@ label {
   .hexagon-item:first-child {
     margin-left: auto;
   }
-
   .page-home .hexagon-item:nth-last-child(1),
 .page-home .hexagon-item:nth-last-child(2),
 .page-home .hexagon-item:nth-last-child(3) {
     transform: rotate(30deg) translate(0px, 0px);
   }
-
   .author-image-large {
     position: static;
     margin-bottom: 50px;
@@ -1364,7 +1338,6 @@ label {
     margin: 0 auto;
     width: 50%;
   }
-
   .about-author {
     display: block;
   }
@@ -1380,7 +1353,6 @@ label {
   .about-author + p {
     margin-bottom: 50px;
   }
-
   .progress {
     display: block;
   }
@@ -1396,7 +1368,6 @@ label {
     min-width: auto;
     text-align: left;
   }
-
   .service-hex {
     float: none;
     margin: 0 auto 40px;
@@ -1411,15 +1382,12 @@ label {
   .service-hex:hover .content {
     width: 120%;
   }
-
   .history-block {
     margin-bottom: 30px;
   }
-
   .contact-form .input-field.name {
     margin-right: 0;
   }
-
   .page-nav {
     bottom: auto;
   }
